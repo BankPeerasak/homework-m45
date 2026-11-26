@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ระบบแจ้งเตือนการบ้าน ม.4/5</title>
+  <!-- ใส่ไอคอนบนแท็บเบราว์เซอร์ (Favicon) -->
+  <link rel="icon" type="image/jpeg" href="https://scontent.fbkk5-6.fna.fbcdn.net/v/t39.30808-6/729048202_122097764151377747_6266158198412797983_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s1024x1024&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGbZXsu_cowaGCmY6W0lSoeOuzsTrgq2t867OxOuCra30if1UfZM8ZgNmRojw8W-uW4mazhmEGMecdEsSUXdlgG&_nc_ohc=dpl5BnS6oDMQ7kNvwFl7Oz8&_nc_oc=Ado6v2kAqbJw_zbYuRjhgmIXefgqdZJO8FjIg_nG80NRF6Rc3Sizsp0YCYV7WkWhEYE&_nc_zt=23&_nc_ht=scontent.fbkk5-6.fna&_nc_gid=NUmOIqpetH1JfpMlkexJwg&_nc_ss=7b3a8&oh=00_AQSD1sXcoapo4Kx9SrWzeBcXP5LXCgnSF_ukCB05NeRAeA&oe=6B0C184C">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100dvh;
+      overflow: hidden;
+      background-color: #5B2C6F; /* สีเดียวกับ Navbar เพื่อความกลมกลืน */
+    }
+    iframe {
+      position: fixed;
+      top: -28px; /* ซ่อนแถบแจ้งเตือนของ Google Apps Script */
+      left: 0;
+      width: 100%;
+      height: calc(100dvh + 28px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- นำ URL ของ Web App (ลงท้ายด้วย /exec) มาใส่ในช่อง src ด้านล่างนี้ -->
+  <iframe src="ใส่_URL_ของ_GOOGLE_APPS_SCRIPT_ที่นี่" allow="clipboard-write"></iframe>
+</body>
+</html>

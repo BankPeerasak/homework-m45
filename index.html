@@ -16,20 +16,19 @@
       width: 100%;
       height: 100dvh;
       overflow: hidden;
-      background-color: #5B2C6F; /* สีเดียวกับ Navbar เพื่อความกลมกลืน */
+      background-color: #5B2C6F;
     }
     iframe {
       position: fixed;
-      top: -28px; /* ซ่อนแถบแจ้งเตือนของ Google Apps Script */
+      top: -24px; /* พอดีกับความสูงแถบแจ้งเตือนของ Google ไม่กินเนื้อที่ Navbar */
       left: 0;
       width: 100%;
-      height: calc(100dvh + 28px);
+      height: calc(100dvh + 24px);
       border: none;
     }
   </style>
 </head>
 <body>
-  <!-- นำ URL ของ Web App (ลงท้ายด้วย /exec) มาใส่ในช่อง src ด้านล่างนี้ -->
   <iframe src="https://script.google.com/macros/s/AKfycbzTvC-vEkEIse7_s7zFO31ea5r6HXqWreVWKixw8IMmPJXrHRcpgNz6bmmUrxqAUyxNXQ/exec" allow="clipboard-write"></iframe>
 </body>
 </html>
